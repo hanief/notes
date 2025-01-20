@@ -1,4 +1,4 @@
-export default function Content({ note }) {
+export default function Note({ note }) {
   return note ?
     <div className="p-10 bg-green-200 flex flex-col">
       <label htmlFor='title'>Title</label>
